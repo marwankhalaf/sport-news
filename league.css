@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(11, 22, 22);
+}
+
+ .frst-tit{
+     color: white;
+     display: flex;
+     justify-content: center;
+     margin: 70px 0px;
+     font-size: 2rem;
+     text-transform: capitalize;
+     word-spacing: 1.6px ;
+     margin-top: 10px;
+     font-weight: bold;
+ }
+
+ .result {
+    display: flex;
+    justify-content:space-around;
+ }
+
+ .ahly1 {
+    width: 140px;
+    height: 140px;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+
+ .ahly1:hover{
+     transform: scale(1.4);
+ }
+
+ .score {
+     color: white;
+     font-size: 44px;
+     margin-top: 49px;
+     letter-spacing: 4px;
+ }
+
+ .zamalk1{
+    width: 140px;
+    height: 140px;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+
+ .zamalk1:hover {
+    transform: scale(1.4);
+
+ }
+
+.but {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+button{
+    width: 88px;
+    height: 42px;
+    border-radius: 9px 9px 9px 9px ;
+    background-color: darkgrey;
+    border: 4px solid rgba(127, 137, 138, 0.541);
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+header {
+    background-color: black; 
+    width: 100vw;
+    height: 80px;
+    margin-top: 24px;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    padding-top: 29px ;
+    padding-right: 28px;
+    font-size: 29px;
+
+}
+
+.match {
+    border-bottom: 2px solid rgba(38, 196, 51, 0.719);
+    color: rgba(25, 219, 41, 0.87);;
+}
+
+
+.the-game {
+    margin: 49px;
+    color: whitesmoke;
+    font-size: 28px;
+    text-transform: capitalize;
+    
+}
+
+
+.the-game div {
+    margin: 8px 0px;
+}
+
+
+
+footer{
+    width: 100vw;
+    height: 110px;
+    background-color: rgba(204, 219, 219, 0.589);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer div {
+    border-right: 2.2px solid black;
+}
+
+.foot-i {
+    font-size: 40px;
+}
+
+.foot-i:hover {
+    color:rgba(38, 25, 219, 0.87) ;
+}
+
+
+.foot-span {
+    font-size: 29px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+.details {
+    background-color:rgba(25, 219, 41, 0.658) ;
+    border-radius: 6px;
+}
+
+#ic {
+    color: rgb(15, 90, 230);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
